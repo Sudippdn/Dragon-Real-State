@@ -13,3 +13,5 @@ model.fit(X,y)                          # train the model
 predictions = model.predict([ [32,1], [22,0]])
 predictions
 ```
+
+# make your own prediction
