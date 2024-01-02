@@ -38,3 +38,44 @@ print(f"The no of list is {len(temp_list)}")
 
 print(weather_data["temp"].mean())                                         # modern way to find an average 
 ```
+
+# Day 3
+Today, I jumped into the famous project of machine learning project "Dragon Real State" and worked in jupyter notebook. I learned the basic concept of matplotib and pandas.
+
+### read_excel(".xlsx") function
+This particular function is used to import the excel file where read_csv(".csv") only worked where the data were saved in csv format.
+```base
+data = read_excel(".xlsx)
+```
+
+### .head()
+.head() function is used to display the first five columns and all rows of the csv or excel data and it mainly check wheather the data is working or not.
+```base
+data.head()
+```
+
+### .describe()
+.describe() function is used to describe the nature of the data and displays the statistic values like count, mean, standard deviation, percentile, mean, median etc
+
+```base
+head.describe()
+```
+### .info()
+.info() displays the count of the data of each rows to confirm if there is missing data or space inbetween the cells.
+
+```base
+head.info()
+```
+
+### .value_counts()
+In this function, it displays the number of 0 and 1 in the certain row
+
+syntax:
+```base
+data['CRIM'].value_counts()
+```
+### %matplotlib inline
+The %matplotlib inline command tells the IPython environment to draw the plots immediately after the current cell. 
+
+### import matplotlib.pyplot as plt and housing.hist(bins= 50, figsize =(20,15)) are used to import the pyplot of matplotlib and plot a histogram
+
