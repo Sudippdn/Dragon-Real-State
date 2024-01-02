@@ -44,26 +44,26 @@ Today, I jumped into the famous project of machine learning project "Dragon Real
 
 ### read_excel(".xlsx") function
 This particular function is used to import the excel file where read_csv(".csv") only worked where the data were saved in csv format.
-```base
+```python
 data = read_excel(".xlsx)
 ```
 
 ### .head()
 .head() function is used to display the first five columns and all rows of the csv or excel data and it mainly check wheather the data is working or not.
-```base
+```python
 data.head()
 ```
 
 ### .describe()
 .describe() function is used to describe the nature of the data and displays the statistic values like count, mean, standard deviation, percentile, mean, median etc
 
-```base
+```python
 head.describe()
 ```
 ### .info()
 .info() displays the count of the data of each rows to confirm if there is missing data or space inbetween the cells.
 
-```base
+```python
 head.info()
 ```
 
@@ -71,7 +71,7 @@ head.info()
 In this function, it displays the number of 0 and 1 in the certain row
 
 syntax:
-```base
+```python
 data['CRIM'].value_counts()
 ```
 ### %matplotlib inline
