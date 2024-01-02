@@ -79,3 +79,7 @@ The %matplotlib inline command tells the IPython environment to draw the plots i
 
 ### import matplotlib.pyplot as plt and housing.hist(bins= 50, figsize =(20,15)) are used to import the pyplot of matplotlib and plot a histogram
 
+## The output histogram is given below:
+
+![dragon real state stats](https://github.com/Sudippdn/Journey-of-ML/assets/104957400/80e2892e-97af-49ba-a446-6672c2a26b61)
+
