@@ -83,3 +83,18 @@ The %matplotlib inline command tells the IPython environment to draw the plots i
 
 ![dragon real state stats](https://github.com/Sudippdn/Journey-of-ML/assets/104957400/80e2892e-97af-49ba-a446-6672c2a26b61)
 
+# Day 3
+
+It is always interesting and entertaining to learn new things and today I learned about the used of pandas and its methods to plot the statistical data. The main methods used are plot and scatter plot to study the correlation of the particular data. I also learned to scatter the individual plot interducing their coordinate values.
+
+```python
+corr_matrix['MEDV'].sort_values(ascending = True) 
+```
+
+#### The involved program is given below
+
+```python
+rom pandas.plotting import scatter_matrix
+attributes = ['MEDV','RM', 'ZN', 'LSTAT']
+scatter_matrix(housing[attributes], figsize = (12,8))
+```
