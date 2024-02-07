@@ -1,4 +1,4 @@
-### *In this repository, you will find the real state price prediction using [numpy](https://numpy.org/doc/), [sci-kit learn](https://scikit-learn.org/stable/), [pandas](https://pandas.pydata.org/docs/), [matplotlib](https://matplotlib.org/stable/index.html), etc and at the end you will be able to train data, familier with data visualization with the help of matplotlib. You will be able to use pandas to explore the data and sci-kit learn to train and predict the price of housing with various models.*
+### **In this repository, you will find the real state price prediction using _[numpy](https://numpy.org/doc/)_, _[sci-kit learn](https://scikit-learn.org/stable/)_, _[pandas](https://pandas.pydata.org/docs/)_, _[matplotlib](https://matplotlib.org/stable/index.html)_, etc and at the end you will be able to train data, familier with data visualization with the help of matplotlib. You will be able to use pandas to explore the data and sci-kit learn to train and predict the price of housing with various models.**
 # Dragon Real State
 # Day 1
 ## Prediction
