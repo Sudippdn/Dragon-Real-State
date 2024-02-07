@@ -1,3 +1,5 @@
+In this repository, you will find the real state price prediction using numpy, sci-kit learn, pandas, matplotlib, etc and at the end you will be able to train data, familier with data visualization with the help of matplotlib. You will be able to use pandas to explore the data and sci-kit learn to train and predict the price of housing with various models.
+
 # Day 1
 ## Prediction
 ```python
