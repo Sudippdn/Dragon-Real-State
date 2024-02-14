@@ -100,3 +100,4 @@ rom pandas.plotting import scatter_matrix
 attributes = ['MEDV','RM', 'ZN', 'LSTAT']
 scatter_matrix(housing[attributes], figsize = (12,8))
 ```
+### find code file for other 
